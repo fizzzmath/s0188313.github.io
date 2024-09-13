@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>домашняя работа 1</title>
+    <link href="https://openedu.kubsu.ru/theme/image.php/boost/theme/1725708672/favicon"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1 id="fragment-page">Задание 1</h1>
+    <ul>
+        <li>Задание 1 + задание 7</li>
+        <a href="http://kubsu.ru/" id= "ниндзя" title="Официальный сайт КУБГУ">Абсолютная гиперссылка на сайт КУБГУ + ссылка с тремя параметрами в URL</a>
+        <li>Задание 2</li>
+        <a href="https://kubsu.ru/" title="Официальный сайт КУБГУ">Абсолютная на главную сайта КУБГУ в протоколе https</a>
+        <li>Задание 3 - картинка</li>
+        <a href="https://kubsu.ru/" title="KUBSU"> <img src=foto.png width="300"></a>
+        <li>Задание 4</li>
+        <a href="catalog/new.html">Сокращенная ссылка на внутреннюю страницу</a>
+        <li>Задание 10</li>
+        <a href= "catalog/about/about.html" >Относительная на страницу в каталоге about</a>
+        <li> Задание 13 - контекстная в тексте абзаца </li>
+        <a href="https://www.kinopoisk.ru/">Кинопоиск</a> дарит подписку
+        <li> Задание 14</li>
+        <a href="https://www.kinopoisk.ru/lists/movies/top250/?utm_referrer=yandex.ru">Ссылка на фрагмент страницы стороннего сайта</a>
+        <li>Задание 15 - ссылки из прямоугольных и круглых областей картинки</li>
+            <map name="pesto">
+                <area shape="rect" coords="35,146,210,238" href="https://vk.com/fctandam" alt="Деканат">
+                <area shape="circle" coords="382,189,67" href="https://vk.com/stasyanet33" alt="Я">
+            </map>
+            <img usemap="#pesto" src="okay.png" alt="Картинка">
+        <li>Задание 16</li>
+        <a href="">Ссылка с пустым href</a>
+        <li>Задание 17</li>
+        <a>Ссылка без href</a>
+        <li>Задание 18</li>
+        <a href="https://www.kinopoisk.ru/" rel="nofollow">Ссылка по которой запрещен переход поисковиками</a>
+        <li>Задание 19</li>
+        <a href="https://www.kinopoisk.ru/" rel="noindex">Ссылка запрещенная для индексации поисковиками</a>
+        <li>Задание 6 + задание 8</li>
+        <a href= "#ниндзя" >Вернуться в начало = ссылка на фрагмент текущей страницы и ссылка с параметром id в URL</a>
+        <li>Задание 20 - нумерованный список ссылок с подписями</li>
+        <ol>
+            <li><a href="https://www.wildberries.ru/catalog/182610673/detail.aspx" title="товар 1">пакет</a></li>
+            <li><a href="https://www.wildberries.ru/catalog/56236410/detail.aspx" title="товар 2">салфетки</a></li>
+            <li><a href="https://www.wildberries.ru/catalog/33080963/detail.aspx" title="товар 3">швабра</a></li>
+        </ol>
+         <li>Задание 21</li>
+        <a href="ftp://login:password@example.com/file.txt">Ссылка на файл на сервере FTP с авторизацией</a>
+    </ul>
+<form action="test@example.com">
+        <label>ФИО: <input type="text"><br></label>
+        <label>Телефон: <input type="tel"><br></label>
+        <label>E-mail: <input type="email"><br></label>
+        <label>Дата рождения: <input type="date"><br></label>
+
+        <label>Пол:</label>
+        <label><input type="radio" name="gender">Мужской</label>
+        <label><input type="radio" name="gender">Женский<br></label>
+
+        <label>
+            Любимый язык программирования:
+            <select name="prog-lang" id="prog-lang">
+                <option value="">JavaScript</option>
+                <option value="">PHP</option>
+                <option value="">Python</option>
+                <option value="">Java</option>
+                <option value="">Pascal</option>
+                <option value="">С</option>
+                <option value="">С++</option>
+                <option value="">Haskel</option>
+                <option value="">Clojure</option>
+                <option value="">Prolog</option>
+                <option value="">Scala</option>
+            </select><br>
+        </label>
+
+        <label>
+            Биография:<br>
+            <textarea name="bio" id="bio"></textarea><br>
+        </label>
+
+        <label><input type="checkbox">С контрактом ознакомлен(а)</label><br>
+        <input type="submit" value="Сохранить">
+    </form>
+</body>
+</html>
